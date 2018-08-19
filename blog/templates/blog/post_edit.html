@@ -5,4 +5,8 @@
         {{ form.as_p }}
         <button type="submit" class="save btn btn-default">Сохранить</button>
     </form>
+    <script>
+    document.getElementById('id_text').setAttribute('cols', '150')
+    document.getElementById('id_title').setAttribute('size', '140')
+    </script>
 {% endblock %}
